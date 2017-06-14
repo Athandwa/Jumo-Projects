@@ -105,6 +105,7 @@ document.getElementById("total").addEventListener("click", jumoChartClients);
 function jumoChartClients() {
 document.getElementById('jumoImage').style.visibility="hidden";
 document.querySelector('.smileys').style.visibility="visible";
+document.querySelector('.paragraph').style.visibility="hidden";
 
   var ctx = document.getElementById('myChartClients').getContext('2d');
   var myChart = new Chart(ctx, {
@@ -123,27 +124,27 @@ document.querySelector('.smileys').style.visibility="visible";
          {
         label: 'Petrol',
         data: [petrolExpense.value],
-        backgroundColor: "darkgrey"
+        backgroundColor: "red"
       }, {
         label: 'Taxi',
         data: [taxiExpense.value],
-        backgroundColor: "darkgrey"
+        backgroundColor: "orange"
       },{
         label: 'School Fees',
         data: [schoolFeesExpense.value],
-        backgroundColor: "darkgrey"
+        backgroundColor: "green"
       }, {
         label: 'University Fees',
         data: [universityFeesExpense.value],
-        backgroundColor: "darkgrey"
+        backgroundColor: "purple"
       }, {
         label: 'Movies',
         data: [moviesExpense.value],
-        backgroundColor: "darkgrey"
+        backgroundColor: "pink"
       }, {
         label: 'Restuarants',
         data: [restuarantsExpense.value],
-        backgroundColor: "darkgrey"
+        backgroundColor: "black"
       }]
     }
   });
