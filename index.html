@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="jumo.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+    <link rel="stylesheet" href="./Jquery/jquery-ui-themes-1.12.1/jquery-ui.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="Chart.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Jumo</h1>
+        </header>
+        <nav>
+
+            <div class="incomeAreaInput" id="incomeAreaInput">
+              <input type="text" class="areaInput" id="areaInput" placeholder="Please Enter Area" required></input><br><br>
+              <input type="number" class="incomeInput" id="incomeInput" placeholder="Please Enter Income" required></input><br><br>
+            </div>
+
+
+                <div class="amounts">
+                <p class="householdPara">Household Expenses </p>
+                <input type="number" class="amount" id="rentExpense" placeholder="Rent Cost" required></input><br><br>
+                <input type="number" class="amount" id="elecExpense" placeholder="Electricity Cost" required></input><br><br>
+                <input type="number" class="amount" id="waterExpense" placeholder="Water Cost" required></input><br><br>
+                <input type="number" class="amount" id="foodExpense" placeholder="Food Cost" required></input><br><br>
+                <input type="number" class="amount" id="clothingExpense" placeholder="Clothing" required></input>
+
+                <p class="transportPara">Transport Expenses </p>
+                <input type="number" class="amount" id="petrolExpense" placeholder="Petrol" required></input><br><br>
+                <input type="number" class="amount" id="taxiExpense" placeholder="Taxi" required></input><br><br>
+                <input type="number" class="amount" id="trainExpense" placeholder="Train" required></input><br><br>
+                <input type="number" class="amount" id="busExpense" placeholder="Bus" required></input>
+
+                <p class="educationPara">Education Expenses </p>
+                <input type="number" class="amount" id="schoolFeesExpense" placeholder="School Fees" required></input><br><br>
+                <input type="number" class="amount" id="universityFeesExpense" placeholder="University Fees" required></input><br><br>
+                <input type="number" class="amount" id="booksExpense" placeholder="Books" required></input><br><br>
+                <input type="number" class="amount" id="uniformExpense" placeholder="Uniform" required></input>
+
+                <p class="entertainmentPara">Entertainment Expenses </p>
+                <input type="number" class="amount" id="moviesExpense" placeholder="Movies" required></input><br><br>
+                <input type="number" class="amount" id="restuarantsExpense" placeholder="Restuarants" required></input><br><br>
+                <input type="number" class="amount" id="musicExpense" placeholder="Music" required></input><br><br>
+                <input type="number" class="amount" id="sportExpense" placeholder="Sport" required></input>
+                </div>
+
+            <button class="total" type="button" id="total">Total</button>
+            <button class="acceptInfoBtn" type="button" id="acceptInfoBtn">Submit</button>
+            <h3> Net Amount </h3>
+            <h3 id="totalOutput"></h3>
+
+        </nav>
+        <article>
+            <h2></h2>
+            <div class="chartTempClients" id="chartTempClients">
+             <canvas id="myChartClients" width="400" height="400"></canvas>
+           </div>
+            <div class="net">
+                
+              <img src="happy.png"  data-picture-id="happy" class="happiness" width="100px">
+              <img src="indifferent.png"  data-picture-id="indifferent" class="indifferences" width="100px">
+              <img src="sad.png"  data-picture-id="sad" class="sadness" width="100px">
+              <!-- <img src="happy.png" data-picture-id="happy" alt="happy.png" class="" style="width:250px;height:200px;"> -->
+            </div>
+        </article>
+
+    </body>
+    <div class="container" id="firstContent">
+        <p>"Happiness is a by-product of an effort to make someone else happy."</p>
+    </div>
+
+    <div class="container" id="secondContent">
+        <p>"There is a spiritual aspect to our lives -- when we give, we receive,
+           when a business does something good for somebody, that somebody feels good about them!"</p>
+    </div>
+
+    <div class="container" id="thirdContent">
+        <p>“In the middle of every difficulty lies opportunity."</p>
+    </div>
+
+
+    <script src="jumoData.js"></script>
+    <script src="pushArray.js" charset="utf-8"></script>

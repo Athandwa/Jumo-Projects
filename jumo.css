@@ -1,0 +1,84 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0.1em 0.1em 0.15em #333;
+    font-size: 3em;
+}
+h3{
+  text-align: left;
+  font-style: italic;
+  text-shadow: 0.1em 0.1em 0.15em #333;
+  font-size: 2em;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: grey;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 190px;
+    margin: 0;
+    padding: 1em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: scroll;
+    height: 1120px;
+}
+img{
+  cursor: pointer;
+}
+.chartTemp {
+  width: 300px;
+  height: 300px;
+  padding: 25px;
+  /*margin-left: 350px;*/
+}
+
+.chartTempRadar {
+  width: 300px;
+  height: 300px;
+  padding: 25px;
+  /*margin-left: 350px;*/
+}
+
+.chartTempClients {
+  width: 600px;
+  height: 700px;
+  padding: 25px;
+  /*margin-left: 350px;*/
+}
+#firstContent{
+  background-color: yellow;
+  display: none;
+}
+#secondContent{
+  background-color: lightgrey;
+  display: none;
+}
+#thirdContent{
+  background-color: lightblue;
+  display: none;
+}
