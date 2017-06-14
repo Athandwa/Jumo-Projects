@@ -13,7 +13,8 @@
 <body>
     <div class="container">
         <header>
-            <h1>Jumo</h1>
+          <img src="jumoLogo.JPG" alt="">
+            <!-- <h1>Jumo</h1> -->
         </header>
         <nav>
 
@@ -27,27 +28,19 @@
                 <p class="householdPara">Household Expenses </p>
                 <input type="number" class="amount" id="rentExpense" placeholder="Rent Cost" required></input><br><br>
                 <input type="number" class="amount" id="elecExpense" placeholder="Electricity Cost" required></input><br><br>
-                <input type="number" class="amount" id="waterExpense" placeholder="Water Cost" required></input><br><br>
-                <input type="number" class="amount" id="foodExpense" placeholder="Food Cost" required></input><br><br>
-                <input type="number" class="amount" id="clothingExpense" placeholder="Clothing" required></input>
 
                 <p class="transportPara">Transport Expenses </p>
                 <input type="number" class="amount" id="petrolExpense" placeholder="Petrol" required></input><br><br>
                 <input type="number" class="amount" id="taxiExpense" placeholder="Taxi" required></input><br><br>
-                <input type="number" class="amount" id="trainExpense" placeholder="Train" required></input><br><br>
-                <input type="number" class="amount" id="busExpense" placeholder="Bus" required></input>
 
                 <p class="educationPara">Education Expenses </p>
                 <input type="number" class="amount" id="schoolFeesExpense" placeholder="School Fees" required></input><br><br>
                 <input type="number" class="amount" id="universityFeesExpense" placeholder="University Fees" required></input><br><br>
-                <input type="number" class="amount" id="booksExpense" placeholder="Books" required></input><br><br>
-                <input type="number" class="amount" id="uniformExpense" placeholder="Uniform" required></input>
 
                 <p class="entertainmentPara">Entertainment Expenses </p>
                 <input type="number" class="amount" id="moviesExpense" placeholder="Movies" required></input><br><br>
                 <input type="number" class="amount" id="restuarantsExpense" placeholder="Restuarants" required></input><br><br>
-                <input type="number" class="amount" id="musicExpense" placeholder="Music" required></input><br><br>
-                <input type="number" class="amount" id="sportExpense" placeholder="Sport" required></input>
+
                 </div>
 
             <button class="total" type="button" id="total">Total</button>
@@ -57,17 +50,17 @@
 
         </nav>
         <article>
-            <h2></h2>
+            <img src="jumo.JPG" class="jumoImage" id="jumoImage" alt="">
             <div class="chartTempClients" id="chartTempClients">
              <canvas id="myChartClients" width="400" height="400"></canvas>
            </div>
-            <div class="net">
-                
+           
+            <div class="smileys">
               <img src="happy.png"  data-picture-id="happy" class="happiness" width="100px">
               <img src="indifferent.png"  data-picture-id="indifferent" class="indifferences" width="100px">
               <img src="sad.png"  data-picture-id="sad" class="sadness" width="100px">
-              <!-- <img src="happy.png" data-picture-id="happy" alt="happy.png" class="" style="width:250px;height:200px;"> -->
             </div>
+            <a href="jumoScreen.html"></a>
         </article>
 
     </body>
@@ -87,3 +80,4 @@
 
     <script src="jumoData.js"></script>
     <script src="pushArray.js" charset="utf-8"></script>
+    <!-- <script src="jumoData.js" charset="utf-8"></script> -->

@@ -4,7 +4,7 @@ function jumoChart() {
   var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ['Emotion Index'],
+      labels: ['Emotion Index For Nyanga'],
       datasets: [{
         label: 'Happy',
         data: [happyCount],

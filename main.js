@@ -6,7 +6,7 @@ var bontiArray = [];
 var totalIncomeNyanga = 0;
 var totalIncomeKhaye = 0;
 var totalIncomeBonti = 0;
-var totalIncomeLanga = 0;m
+var totalIncomeLanga = 0;
 
 var averageIncomeNyanga = 0;
 var averageIncomeKhaye = 0;

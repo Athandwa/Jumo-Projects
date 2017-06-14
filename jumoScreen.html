@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/jumoChart.css">
+  <script src="Chart.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Jumo's Dash Board</h1>
+    <div class="row">
+      <div class="four columns">
+
+      <div class="chartTemp">
+        <canvas id="myChart"></canvas>
+    </div>
+  </div>
+</div>
+   <div class="four columns">
+    <div class="chartTempRadar">
+      <canvas id="myRadarChart"></canvas>
+      <center><h6>Average Income Per Area</h6></center>
+    </div>
+  </div>
+  <script src="jumoChart.js"></script>
+  <script src="averageIncome.js"></script>
+  <script src="countEmotions.js"></script>
+  <script src="jumoData.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

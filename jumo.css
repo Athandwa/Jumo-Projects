@@ -65,6 +65,8 @@ img{
 }
 
 .chartTempClients {
+  position: relative;
+  bottom: 400px;
   width: 600px;
   height: 700px;
   padding: 25px;
@@ -81,4 +83,11 @@ img{
 #thirdContent{
   background-color: lightblue;
   display: none;
+}
+
+.smileys{
+  position: relative;
+  visibility:hidden;
+  bottom: 400px;
+
 }

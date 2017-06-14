@@ -1,0 +1,30 @@
+.chartTemp {
+  width: 400px;
+  height: 400px;
+  margin-left: 6em;
+  margin-top: 1em;
+}
+
+.chartTempRadar {
+  width: 300px;
+  height: 300px;
+  padding-left: 19px;
+  margin-left: 30em;
+  margin-top: -28em;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  text-shadow: 0.1em 0.1em 0.15em #333;
+  font-size: 3em;
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 39px;
+  width: auto;
+  /*background-color: orange;*/
+}
+
+￼
