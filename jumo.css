@@ -66,7 +66,7 @@ img{
 
 .chartTempClients {
   position: relative;
-  bottom: 470px;
+  bottom: 520px;
   width: 600px;
   height: 401px;
   padding: 25px;
@@ -88,7 +88,7 @@ img{
 .smileys{
   position: relative;
   visibility:hidden;
-  bottom: 360px;
+  bottom: 300px;
 
 }
 img#jumoImage.jumoImage{
